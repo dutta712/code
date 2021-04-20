@@ -15,7 +15,7 @@ def post():
     return render_template('post.html')
 
 @app.route('/contact')
-def conntact():
+def contact():
     return render_template('contact.html')
 
 if __name__ == '__main__':
